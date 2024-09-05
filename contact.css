@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.image1{
+    height: 90px;
+}
+.logo11{
+    height: 50px;
+    padding-right: 50px;
+    margin-top: 8px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(149, 184, 214); */
+}
+.text{
+    text-align: center;
+}
+.text1{
+    color:#247dcb;
+    font-weight: 700;
+    font-size: 40px;
+}
+.text2{
+    font-weight: 600;
+    font-size: 24px;
+}
+nav{
+    height: 35px;
+    width: 100%;
+    background-color:#3fafcce8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    font-size: 17px;
+}
+nav a {
+    text-decoration: none;
+    padding-top: 7px;
+    color: white;
+}
+main {
+   background-image: url(https://smv.org/media/images/Exterior_photograph_of_the_Scienc.c25b35de.fill-1370x800.jpg);
+    /* background-image: url(urlHD-wallpaper-place-city-fall-india-jaipur-jantar-mantar-love-to-click-nature-naturelover-rajasthan.jpg); */
+    
+    /* background-size: cover; */
+    width: 100%;
+    height: 491px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* .search_place{
+    padding-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+#city{
+    width: 180px;
+    height: 35px;
+    background-color: rgba(182, 181, 181, 0.5);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+#museum{
+    width: 180px;
+    height: 35px;
+    background-color: rgba(182, 181, 181, 0.5);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+} */
+.bot{
+    margin-top: 200px;
+    margin-left: 1200px;
+    position: fixed;
+} 
+.botimage{
+    width: 90px;
+}
+.cityki{
+    border: 1px solid #293066;
+    background-color: rgba(21, 161, 255, 0.5);
+    border-radius: 15px;
+}
+.museumki{
+    border: 1px solid #293066;
+    background-color: rgba(21, 161, 255, 0.5);
+    border-radius: 15px;
+
+}
+.chat-footer{
+    margin-top: 265px;
+    margin-left: 1200px;
+    position: fixed;
+}
+
+
+
+/* Chatbot styles */
+.chatbot-window {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none; 
+    z-index: 1000; 
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header h4 {
+    margin: 0;
+}
+
+.chat-header button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.chat-body {
+    padding: 10px;
+    height: calc(100% - 80px); /* Adjust based on header/footer size */
+    overflow-y: auto;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+    align-self: flex-start;
+}
+
+.chat-footer {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-footer input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-footer button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.event{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align:left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(90, 90, 90);
+    margin-left: 780px;
+    margin-right: 275px;
+    border-radius: 20px;
+
+}
+.event a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgba(77, 77, 77, 0.911);
+}
